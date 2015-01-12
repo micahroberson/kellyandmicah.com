@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Cylburn';
+  src: url('fonts/Cylburn.otf') format('opentype'),
+       url('fonts/Cylburn.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'QuaverSans';
+  src: url('fonts/QuaverSans.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'QuaverSerif';
+  src: url('fonts/QuaverSerif.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AbrahamLincoln';
+  src: url('fonts/AbrahamLincoln.ttf') format('truetype');
+}
+
+body {
+  /*font-family: 'QuaverSans', Helvetica;*/
+  font-family: 'AbrahamLincoln', Helvetica;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+
+h5 {
+  text-align: center;
+  font-size: 24px;
+  display: none;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 48px;
+  }
+}
